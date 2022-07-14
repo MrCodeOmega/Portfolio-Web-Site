@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+#baslik{
+    @apply text-blue-600 dark:text-yellow-400;
+}
+#isim{
+@apply text-gray-800 dark:text-white}
+#background{
+@apply bg-primary-light dark:bg-gray-900
+}
+
+#themeButton{
+@apply bg-black dark:bg-yellow-500
+}
+
+#typicalSlide{
+@apply text-transparent bg-gradient-to-r from-purple-700  via-white to-red-600 bg-clip-text
+}
+
+#socialButton{
+@apply transition-colors text-gray-800 dark:text-white hover:text-red-400 dark:hover:text-yellow-400
+}
+
+#article{
+@apply dark:prose-dark prose
+}
+#backButton{
+@apply dark:hover:text-gray-50 dark:text-gray-300
+}
+
+#tags{
+    @apply dark:text-white dark:bg-purple-700
+}
+
+#projectCardTitle{
+    @apply dark:text-yellow-400
+}
+
+#cardBackground{
+    @apply dark:bg-gray-800
+}
+
+#description{
+    @apply dark:text-gray-300
+}
+
+#description2{
+    @apply dark:text-gray-400
+}
+
+#description3{
+    @apply dark:text-gray-400
+}
+
+#matrixIMG {
+@apply  dark:opacity-100
+}
+
+#nav{
+@apply dark:text-white
+}
+
+#warning{
+@apply dark:text-yellow-500
+}
+
+#portButton{
+@apply text-2xl
+}
+
+#lamp{
+    @apply dark:bg-slate-500
+}
+
+}
